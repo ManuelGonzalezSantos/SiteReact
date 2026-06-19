@@ -5,28 +5,26 @@ function Hero() {
     <section className="hero">
       <div className="hero-conteudo">
         <span className="etiqueta">
-          Projeto guiado em React
+          Wiki guiada com react
         </span>
 
         <h1>
-          Construa seu primeiro site com componentes
+          Os Cavaleiros dos Zodiaco
         </h1>
 
         <p>
-          Aprenda a montar uma interface com Header,
-          Menu, Hero, Galeria, páginas e Footer usando
-          React, JavaScript e CSS.
+          Um site sobre a franquia "Os Cavaleiros dos Zodiaco"
         </p>
 
         <Botao texto="Começar agora" />
       </div>
 
       <div className="painel-projeto">
-        <strong>Componentes do site</strong>
-        <span>Header</span>
-        <span>Hero</span>
-        <span>Galeria</span>
-        <span>Footer</span>
+        <strong>Informações</strong>
+        <span>Saga do santuário</span>
+        <span>Saga de poseidom</span>
+        <span>Saga de hasgard</span>
+        <span>Saga de hades</span>
       </div>
     </section>
   )
